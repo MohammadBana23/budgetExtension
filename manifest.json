@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name" : "Algodaric",
+    "version" : "1.0",
+    "description" : "hello to my budget extention",
+    "icons" : {
+        "128" : "algodaric128.png",
+        "64" : "algodaric64.png",
+        "32" : "algodaric32.png",
+        "16" : "algodaric16.png"
+    },
+    "browser_action" : {
+        "default_icon" : "algodaric32.png",
+        "default_popup" : "popup.html"
+    }
+}
