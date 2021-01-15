@@ -13,6 +13,9 @@
         "default_icon" : "algodaric32.png",
         "default_popup" : "popup.html"
     },
+
+    "options_page" : "options.html",
+
     "permissions" : [
         "storage"
     ]
