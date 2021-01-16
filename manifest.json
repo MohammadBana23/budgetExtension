@@ -16,12 +16,13 @@
 
     "options_page" : "options.html",
     "background" : {
-        "scripts" : ["eventPage.js","wikiPage.js"],
+        "scripts" : ["eventPage.js","wikiPage.js","speakit.js"],
         "persistent" : false
     },
 
 
     "permissions" : [
+        "tts",
         "tabs",
         "storage",
         "notifications",
