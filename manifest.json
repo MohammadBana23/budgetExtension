@@ -16,12 +16,13 @@
 
     "options_page" : "options.html",
     "background" : {
-        "scripts" : ["eventPage.js"],
+        "scripts" : ["eventPage.js","wikiPage.js"],
         "persistent" : false
     },
 
 
     "permissions" : [
+        "tabs",
         "storage",
         "notifications",
         "contextMenus"

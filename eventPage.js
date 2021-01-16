@@ -28,10 +28,14 @@ chrome.contextMenus.onClicked.addListener(function(clickData){
                             title : 'Limit reached!',
                             message : "Uh oh! Looks like you've reached your limit"
                         };
-                        chrome.notifications.create('limitNotification',notifOptions);
+                        chrome.notifications.create(notifOptions);
                     }
                 });
             });
         }
     }
+});
+
+chrome.storage.onChanged.addListener(function(changes,storageName){
+    chrome.browserAction.setBadgeText({"text" : changes.total.newValue.toString()});
 });

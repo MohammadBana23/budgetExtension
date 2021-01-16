@@ -25,7 +25,7 @@ $(function(){
                         title : 'Limit reached!',
                         message : "Uh oh! Looks like you've reached your limit"
                     };
-                    chrome.notifications.create('limitNotification',notifOptions);
+                    chrome.notifications.create(notifOptions);
                 }
             });
 

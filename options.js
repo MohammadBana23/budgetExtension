@@ -21,7 +21,7 @@ $(function () {
                 title: 'Total reset!',
                 message: "Total has been reset to 0!"
             };
-            chrome.notifications.create('limitNotif', notifOptions);
+            chrome.notifications.create(notifOptions);
         });
     });
 });
